@@ -1,0 +1,58 @@
+.logo{
+    display: flex;
+    padding: 30px;
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgba(229, 232, 249, 0.937);
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+li{
+    padding: 10px;
+    font-size: 17px;
+}
+.list a {
+      color: rgb(240, 202, 202);
+      text-decoration: none;
+}
+.list a:hover{
+    background: linear-gradient(45deg,#d8c8c8, #85cee4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+main {
+    height: 55vh;
+    padding: 100px;
+}
+.mail{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #aadae9;
+}
+.btn:hover{
+    background: linear-gradient(45deg,#e15959,#59bee0);
+}
+.image{
+    height: 30px;
+}
